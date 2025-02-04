@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* static */
+        *{
+            margin: 0;
+        }
+       .container{
+          position: static;
+          box-sizing: border-box;
+          border: 5px solid #eee;
+          padding:0.5em;
+          color: rgb(238, 84, 38);
+        }
+        /* static end */
+        /* relative */
+        .relative1{
+            box-sizing: border-box;
+            border: 5px solid #bbb;
+            margin-top: 20px;
+            padding: 0.8em;
+            position: relative;
+        }
+        .relative2{
+            box-sizing: border-box;
+            border: 5px solid red;
+            padding: 0.8em;
+            position: relative;
+            top: -35px ;
+            left: 40px;
+        }
+        /* relative end */
+        /* Fixed start */
+        .fixed{
+            box-sizing: border-box;
+            border: 5px solid gray;
+            width: 100px;
+            height: 80px;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+        /* Fixed End */
+        /* Absolute */
+        .abso{
+            box-sizing: border-box;
+            border: 5px solid lightgray;
+            width: 600px;
+            height: 400px;
+            position: relative;
+        }
+        .rel{
+            box-sizing: border-box;
+            border: 5px solid mediumblue;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top:100px;
+            right: 0;
+        }
+        /* Absoulute End */
+        /* postion examples */
+        .menu{
+            box-sizing: border-box;
+            border: 5px solid lightblue;
+            margin-top: 370px;
+            width: 180px;
+            position: static;
+            
+            
+        }
+        .para1{
+            box-sizing: border-box;
+            border: 5px solid orange;
+            padding: 0.8em;
+            position: relative;
+            left: 180px;
+            top: -172px;
+        }
+        .para2{
+            box-sizing: border-box;
+            border: 5px solid orange;
+            padding: 0.8em;
+            position: relative;
+            left:180px ;
+            top:-180px;
+        }
+        .para3{
+            box-sizing: border-box;
+            border: 5px solid orange;
+            padding: 0.8em;
+            position: relative;
+            left:180px ;
+            top:-180px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- static -->
+    <div class="container">
+    <p> <u>STATIC</u><br>Lorem ipsum dolor, sit amet consectetur 
+        adipisicing elit. Impedit excepturi quas
+         quaerat hic harum, corrupti esse, reiciendis
+          ullam facere atque possimus dolores illo 
+          natus fugiat non nam eum facilis in.
+    </p>
+    </div>
+    
+    <!-- static end -->
+    <!-- relative 1 -->
+    <div class="relative1">
+        <p>Lorem ipsum dolor sit, amet consectetur 
+            adipisicing elit. Dolore sit enim quo 
+            esse quos debitis, assumenda provident 
+            corrupti culpa aliquid numquam iusto rem 
+            odio incidunt, deleniti nemo expedita 
+            porro totam.
+        </p>
+    </div>
+    <div class="relative2">
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Deleniti odio vitae 
+            vel quod dolorem nemo amet reprehenderit 
+            distinctio esse laudantium facilis, ipsam 
+            accusantium numquam. Veniam consectetur 
+            et perspiciatis qui adipisci!
+        </p>
+    </div>
+    <!-- Fixed  -->
+     <div class="fixed">
+        <p>TALK TO ME FOR MORE DETAILS</p>
+     </div>
+    <!-- Fixed end -->
+     <!-- Absolute -->
+    <div class="abso">
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Doloremque consectetur 
+            maiores nesciunt minima tempore tempora 
+            nobis recusandae aspernatur consequuntur 
+            repellendus sunt, cum temporibus, quae 
+            facere, sed omnis illo quaerat dolores.
+        </p>
+        <div class="rel">
+            <p>Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Voluptatum corporis 
+                aliquid quaerat sapiente dolorum 
+                facere vero non iste sed commodi? 
+                Blanditiis saepe, voluptas natus 
+                enim ex praesentium quo laboriosam 
+                nostrum.
+            </p>
+        </div>
+        <!-- Absoulute end -->
+        <!-- position example -->
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Products</li>
+                <li>Contact</li>
+                <li>Portoflio</li>
+                <li>Site Map</li>
+                <li>Visit Us</li>
+                <li>Book an Appointment</li>
+            </ul>
+        </div>
+        <section class="para1">
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Culpa minus sint 
+                consectetur numquam, facere, error 
+                expedita similique illo fugiat 
+                perspiciatis exercitationem aspernatur 
+                sit cupiditate quas pariatur 
+                voluptatem officiis. Laboriosam, 
+                perferendis.
+            </p>
+        </section>
+        <section class="para2">
+            <p>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. 
+                Iure quasi, repudiandae temporibus 
+                culpa nemo ullam perspiciatis iste 
+                non aspernatur atque quo error porro? 
+                Officiis eligendi, consectetur ea 
+                laudantium nulla molestiae.
+            </p>
+        </section>
+        <section class="para3">
+            <p>consectetur adipisicing elit. 
+                Iure quasi, repudiandae temporibus 
+                culpa nemo ullam perspiciatis iste 
+                non aspernatur atque quo error porro? 
+                Officiis eligendi, consectetur ea 
+                laudantium nulla molestiae.
+            </p>
+        </section>
+        <!-- postion example end -->
+    </div>
+
+
+</body>
+</html>
